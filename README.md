@@ -1,13 +1,13 @@
 # visuSift
 
-This small app is intended to plot the links between two points that can be the results of Sift keypoints.
+This small app is intended to plot the links between two points. These points can be the results of Sift keypoints matching algorithm.
 This repository is ready to be used in Eclipse.
 
 # Usage
 
 the app takes two parameters: the image and the text file.
 
-# ABout the text file
+# About the text file
 
 The matchings points should be as follow: first line is the number of points and then come the points.
 
@@ -20,6 +20,14 @@ The matchings points should be as follow: first line is the number of points and
 ```
 
 For now, the points are separated by two spaces.
+
+# Possible evolutions
+
+* the number of links plotted is internal, make it external
+* Color is also an internal parameter
+* Reload option
+* No redimension
+* Text file: points are separated by two spaces: not standard.
 
 # Example
 
